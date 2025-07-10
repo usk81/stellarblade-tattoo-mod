@@ -1,5 +1,10 @@
 # Tattoo mod for Stellar Blade
 
+Adds black and white tattoos onto the skin portion of EVE.
+
+> This mod changes base skin textures that most outfits share, so whatever other mod that also changes skin textures may most probably break.
+> Therefore, the files are created for each base skin texture.
+
 ## Download Link
 
 > Data is maintained on github, but mods are distributed through NexusMod.
