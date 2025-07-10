@@ -9,8 +9,6 @@ Adds black and white tattoos onto the skin portion of EVE.
 
 > Data is maintained on github, but mods are distributed through NexusMod.
 
-original chunk id: 427
-
 ## Preview
 
 ### adam (hip)
@@ -23,6 +21,21 @@ original chunk id: 427
 
 ### womb (abdomen)
 
+## Chunk IDs
+
+> For “reference body type” see “state”.
+
+|reference body type|Chunk ID|
+|---|---|
+|V1|427|
+|V2|428|
+|V3|429|
+|EVE_09|430|
+|EVE_27|431|
+|EVE_35|432|
+|EVE_43|433|
+|EVE_61|434|
+
 ## Naming Rule
 
 > For “reference body type” see “state”.
@@ -32,13 +45,13 @@ original chunk id: 427
 rule:
 
 ```
-MonoTattoo_(reference body type)_(tattoo item name)
+MonoTattoo_(reference body type)
 ```
 
 e.g. Crimson Wings :
 
 ```
-MonoTattoo_V3_All
+MonoTattoo_V3
 ```
 
 e.g. Planet Diving Suit (7th):
@@ -52,19 +65,19 @@ MonoTattoo_EVE_09
 rule:
 
 ```
-MonoTattoo_(reference body type)_(tattoo item name)_P
+MonoTattoo_(reference body type)_All_P
 ```
 
-e.g. Crimson Wings + all tattoos :
+e.g. Crimson Wings :
 
 ```
 MonoTattoo_V3_All_P
 ```
 
-e.g. Planet Diving Suit (7th) + rose tattoo only:
+e.g. Planet Diving Suit (7th):
 
 ```
-MonoTattoo_EVE_09_Rose_P
+MonoTattoo_EVE_09_All_P
 ```
 
 
@@ -82,146 +95,146 @@ All tattoo images are self-made or AI-generated, except for the following.
 
 ## State
 
-|Name|reference body type|base skin texture (detail)|adam (hip)|devil girl (upper arm)|rose (hand)|wings (back)|womb (abdomen)|under construction|note|ID|Name (Japanese)|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---|:---|
-|Daily Biker|(Unsupported)|(Unknown)| | | | | |✓| |CH_P_EVE_02_Body|デイリーバイカー|
-|FourSeconds Biker|(Unsupported)|(Unknown)| | | | | |✓| |CH_P_EVE_02_typeB|"FourSeconds"バイカー|
-|Daily Denim|(Unsupported)|(Unknown)| | | | | |✓| |CH_P_EVE_04_Body|デイリーデニム|
-|FourSeconds Denim|(Unsupported)|(Unknown)| | | | | |✓| |CH_P_EVE_04_typeB|"FourSeconds"デニム|
-|Daily Sailor (Old Version?)|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_05_Body|デイリーセーラー(旧バージョン？)|
-|Daily Sailor|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_05HN|デイリーセーラー|
-|Comfort Sailor (Old Version?)|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_05_typeB|コンフォートセーラー(旧バージョン？)|
-|Comfort Sailor|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_05_typeBHN|コンフォートセーラー|
-|Black Wave (Old Version?)|(Unsupported)|MI_CH_P_EVE_BB_V01| | | | | |✓| |CH_P_EVE_06_Body|ブラックウェーブ(旧バージョン？)|
-|Black Wave|(Unsupported)|MI_CH_P_EVE_BB_V01| | | | | |✓| |CH_P_EVE_06HN|ブラックウェーブ|
-|Wild Wave (Old Version?)|(Unsupported)|MI_CH_P_EVE_BB_V01| | | | | |✓| |CH_P_EVE_06_typeB|ワイルドウェーブ(旧バージョン？)|
-|Wild Wave|(Unsupported)|MI_CH_P_EVE_BB_V01| | | | | |✓| |CH_P_EVE_06_typeBHN|ワイルドウェーブ|
-|Punk Top|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_07|パンクトップス|
-|Punk Style|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_07_TypeB|パンクスタイル|
-|Planet Diving Suit (6th) V2|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_08|プラネットダイブスーツ（第6）V2|
-|Planet Diving Suit (6th)|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_08_TypeB_OrangeRed|プラネットダイブスーツ（第6）|
-|Planet Diving Suit (6th) V3|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_08_TypeC|プラネットダイブスーツ（第6）V3|
-|Planet Diving Suit (7th)|EVE_09|CH_P_EVE_09_Skin|✓|✓|✓|✓|✓| | |CH_P_EVE_09|プラネットダイブスーツ（第7）|
-|Planet Diving Suit (7th) V2|EVE_09|CH_P_EVE_09_Skin|✓|✓|✓|✓|✓| | |CH_P_EVE_09_TypeB|プラネットダイブスーツ（第7）V2|
-|Planet Diving Suit (7th) V3|EVE_09|CH_P_EVE_09_Skin|✓|✓|✓|✓|✓| | |CH_P_EVE_09_TypeC|プラネットダイブスーツ（第7）V3|
-|Planet Diving Protection Suit (7th)|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_09_V2|プラネットダイブ防護スーツ（第7）|
-|Planet Diving Protection Suit (7th) V2|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_09_V2_TypeB|プラネットダイブ防護スーツ（第7）V2|
-|Planet Diving Suit (Captain)|(Unsupported)|(None)| | | | | | | |CH_P_EVE_10|プラネットダイブスーツ（隊長）|
-|Raven Suit|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_11|レイブンスーツ|
-|Raven Suit ?|(Unsupported)|Raven_BaseBody| | | | | |✓| |CH_P_EVE_11_1|レイブンスーツ(with Hair)|
-|Planet Diving Suit (3rd)|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_14|プラネットダイブスーツ（第3）|
-|Prototype Planet Diving Suit|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_14_1|試作型プラネットダイブスーツ|
-|Planet Diving Suit (3rd) V2|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_14_TypeB|プラネットダイブスーツ（第3）V2|
-|Prototype Planet Diving Suit V2|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_14_1_TypeB|試作型プラネットダイブスーツV2|
-|Orca Engineer (Old Version?)|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_15|オルカエンジニア(旧バージョン？)|
-|Orca Engineer|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_15_V02|オルカエンジニア|
-|Orca Techie|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_15_V02_TypeB|オルカテック|
-|Black Kunoichi|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_16|ブラッククノイチ|
-|White Kunoichi|V1_L|BaseBody|✓|✓|✓|✓|✓| | |CH_P_EVE_16_TypeB|ホワイトクノイチ|
-|Sporty Yellow (Old Version?)|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_17|スポーティーイエロー(旧バージョン？)|
-|Sporty Yellow|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_17NH|スポーティーイエロー|
-|Sporty Energy|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_17NH_TypeB|スポーティーエネルギー|
-|Daily Mascot|V2|V02_F1/V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_18|デイリーマスコット|
-|Comfort Mascot|V2|V02_F1/V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_18_TypeB|コンフォートマスコット|
-|Cybernetic Bondage|(Unsupported)|EVE_Cos_19_Skin| | | | | |✓| |CH_P_EVE_19|サイバネティックボンデージ|
-|Autonetic Bondage|(Unsupported)|EVE_Cos_19_TypeB_BB| | | | | |✓| |CH_P_EVE_19_TypeB|オートネイティックボンデージ|
-|Black Rose|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_20|ブラックローズ|
-|La Vie en Rose|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_20_TypeB|ラ・ヴィ・アン・ローズ|
-|Angelic Rose|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_20_TypeC|エンジェルローズ|
-|Sky Ace|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_21|スカイエース|
-|Air Ace|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_21_TypeB|エアエース|
-|White Full Dress|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_22|フルドレスホワイト|
-|Black Full Dress|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_23|フルドレスブラック|
-|Wasteland Adventurer|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_24|荒野の冒険家|
-|Wasteland Explorer|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_24_TypeB|荒野の探検家|
-|Motivation|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_25|モチベーション|
-|Resonance|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_25_TypeB|レゾナンス|
-|Red Passion|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_26|レッドパッション|
-|Emerald Passion|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_26_TypeB|エメラルドパッション|
-|Ocean Maid|CH_P_EVE_27|CH_P_EVE_27_BB_02|✓|✓|✓|✓|✓| | |CH_P_EVE_27|オーシャンメイド|
-|Tidal Maid|CH_P_EVE_27|CH_P_EVE_27_BB_02|✓|✓|✓|✓|✓| | |CH_P_EVE_27_TypeB|タイダルメイド|
-|Holiday Rabbit (Old Version?)|(Unsupported)|CH_P_EVE_28_BB| | | | | |✓| |CH_P_EVE_28|ホリディラビット(旧バージョン？)|
-|Holiday Rabbit|(Unsupported)|CH_P_EVE_28_BB| | | | | |✓| |CH_P_EVE_28HN|ホリディラビット|
-|Holiday Bunny (Old Version?)|(Unsupported)|CH_P_EVE_28_BB| | | | | |✓| |CH_P_EVE_28_typeB|ホリディバニー(旧バージョン？)|
-|Holiday Bunny|(Unsupported)|CH_P_EVE_28_BB| | | | | |✓| |CH_P_EVE_28HN_typeB|ホリディバニー|
-|Keyhole Suit|(Unsupported)|CH_P_EVE_29_BB| | | | | |✓| |CH_P_EVE_29|キーホールスーツ|
-|Stargazor Suit|(Unsupported)|CH_P_EVE_29_BB_TypeB| | | | | |✓| |CH_P_EVE_29_TypeB|スターゲイザースーツ|
-|Keyhole Dress|(Unsupported)|CH_P_EVE_29_BB_TypeC| | | | | |✓| |CH_P_EVE_29_TypeC|キーホールドレス|
-|Planet Diving Suit (2nd)|(Unsupported)|(None)| | | | | | | |CH_P_EVE_30|プラネットダイブスーツ（第2）|
-|Planet Diving Suit (2nd) V2|(Unsupported)|(None)| | | | | | | |CH_P_EVE_30_TypeB|プラネットダイブスーツ（第2）V2|
-|Cybernetic Dress|(Unsupported)|CH_P_EVE_31_BB| | | | | |✓| |CH_P_EVE_31|サイバネティックドレス|
-|Cybernetic Suit|(Unsupported)|CH_P_EVE_31_BB| | | | | |✓| |CH_P_EVE_31_TypeB|サイバネティックスーツ|
-|Daily Knitted Dress|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_32|デイリーニットドレス|
-|Comfort Knitted Dress|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_32_TypeB|コンフォートニットドレス|
-|Peony|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_33|シャクヤク|
-|Hydrangea|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_33_TypeB|アジサイ|
-|Moutan Peony|(Unsupported)|CH_P_EVE_34_BB| | | | | |✓| |CH_P_EVE_34|ボタン|
-|Black Lotus|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_34_body_02|ブラックロータス|
-|Black Pearl|EVE_35|CH_P_EVE_35_BB|✓|✓|✓|✓| | | |CH_P_EVE_35|ブラックパール|
-|Red Pearl|EVE_35|CH_P_EVE_35_TypeB_BB|✓|✓|✓|✓| | | |CH_P_EVE_35_TypeB|レッドパール|
-|Junk Mechanic|(Unsupported)|MI_EVE_Cos_36_BB1| | | | | |✓| |CH_P_EVE_36|ジャンクメカニック|
-|Junk Engineer|(Unsupported)|MI_EVE_Cos_36_BB1| | | | | |✓| |CH_P_EVE_36_TypeB|ジャンクエンジニア|
-|Office Style|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_37|オフィススタイル|
-|Crew Style|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_37_TypeB|クルースタイル|
-|Daily Force|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_39|デイリーフォース|
-|Comfort Force|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_39_TypeB|コンフォートフォース|
-|Cyber Magician|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_40|サイバーマジシャン|
-|Cyber Trickster|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_40_TypeB|サイバートリックスター|
-|Racer's High (Old Version?)|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_41|レーサーズハイ(旧バージョン？)|
-|Racer's High|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_41HN|レーサーズハイ|
-|Speeder's High (Old Version?)|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_41_typeB|スピーダーズハイ(旧バージョン？)|
-|Speeder's High|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_41HN_typeB|スピーダーズハイ|
-|Orca Exploration Suit|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_42|オルカ・エクスプロレーションスーツ|
-|Orca Pathfinder|V2|V02_F1|✓|✓|✓|✓|✓| | |CH_P_EVE_42_TypeB|オルカ・パスファインダー|
-|Blue Monsoon|EVE_43|CH_P_EVE_43_Body|✓|✓|✓|✓|✓| |removed painted-on textures|CH_P_EVE_43|ブルーモンスーン|
-|White Monsoon|EVE_43|CH_P_EVE_43_TypeB_BB|✓|✓|✓|✓|✓| |removed painted-on textures|CH_P_EVE_43_TypeB|ホワイトモンスーン|
-|Fluffy Bear|(Unsupported)|CH_P_EVE_45_Body| | | | | | | |CH_P_EVE_45|フラッフィーベア|
-|Pink Bear|(Unsupported)|CH_P_EVE_45_TypeB_Body| | | | | | | |CH_P_EVE_45_TypeB|ピンクベア|
-|Silver Kunoichi|(Unsupported)|CH_P_EVE_46_M01| | | | | |✓| |CH_P_EVE_46|シルバー・クノイチ|
-|Shadow Kunoichi|(Unsupported)|CH_P_EVE_46_TypeB_M01| | | | | |✓| |CH_P_EVE_46_TypeB|シャドー・クノイチ|
-|Cyber Bunny|(Unsupported)|CH_P_EVE_47| | | | | |✓| |CH_P_EVE_47|サイバーバニー|
-|White Pearl|(Unsupported)|CH_P_EVE_49_BB| | | | | |✓| |CH_P_EVE_49|ホワイトパール|
-|Aqua Pearl|(Unsupported)|CH_P_EVE_49_TypeB_BB| | | | | |✓| |CH_P_EVE_49_TypeB|アクアパール|
-|FourSeconds Everyday Wear|(Unsupported)|CH_P_EVE_50_BB| | | | | |✓| |CH_P_EVE_50|"FourSeconds"エブリディウェア|
-|FourSeconds Essential Wear|(Unsupported)|CH_P_EVE_50_BB| | | | | |✓| |CH_P_EVE_50_TypeB|"FourSeconds"エッセンシャルウェア|
-|FourSeconds Destroyed Denim|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_51|"FourSeconds"ダメージデニム|
-|FourSeconds Black Denim|(Unsupported)|(Unknown)| | | | | |✓| |CH_P_EVE_52|"FourSeconds"ブラックデニム|
-|FourSeconds Striped Denim|(Unsupported)|(Unknown)| | | | | |✓| |CH_P_EVE_52_TypeB|"FourSeconds"ストライプデニム|
-|Ultimate Bunny|(Unsupported)|CH_P_EVE_53_BB| | | | | |✓| |CH_P_EVE_53|アルティメットバニー|
-|Extreme Bunney|(Unsupported)|CH_P_EVE_53_BB| | | | | |✓| |CH_P_EVE_53_TypeB|エクストリームバニー|
-|Neurocurcuit Bondage|(Unsupported)|CH_P_EVE_54_Skin| | | | | |✓| |CH_P_EVE_54|ニューロサーキットボンデージ|
-|Prototype Neurolink Suit|(Unsupported)|CH_P_EVE_55_BB| | | | | |✓| |CH_P_EVE_55|試作型ニューロリンクスーツ|
-|Prototype Sensate Suit|(Unsupported)|CH_P_EVE_55_BB| | | | | |✓| |CH_P_EVE_55_TypeB|試作型センセートスーツ|
-|Neurolink Suit|(Unsupported)|CH_P_EVE_56_UV1| | | | | |✓| |CH_P_EVE_56|ニューロリンクスーツ|
-|Neurolink Skin|(Unsupported)|CH_P_EVE_57_Body| | | | | |✓| |CH_P_EVE_57|ニューロリンクスキン|
-|Sensate Skin|(Unsupported)|CH_P_EVE_57_Body| | | | | |✓| |CH_P_EVE_57_TypeB|センセートスキン|
-|War Aegis|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_58|ウォーイージス|
-|War Dress|(Unsupported)|CH_P_EVE_59_Body| | | | | |✓| |CH_P_EVE_59|ウォードレス|
-|War Suit|(Unsupported)|CH_P_EVE_59_Body| | | | | |✓| |CH_P_EVE_59_TypeB|ウォースーツ|
-|Midsummer Redhood (Old Version?)|(Unsupported)|CH_P_EVE_60_BB| | | | | |✓| |CH_P_EVE_60|ミッドサマーレッドフード(旧バージョン？)|
-|Midsummer Redhood|(Unsupported)|CH_P_EVE_60_BB| | | | | |✓| |CH_P_EVE_60_NH|ミッドサマーレッドフード|
-|Midsummer Alice|EVE_61|CH_P_EVE_61_BB|✓|✓|✓|✓|✓| | |CH_P_EVE_61|ミッドサマーアリス|
-|Wave Oblique Monokini|(Unsupported)|CH_P_EVE_62_BaseBody| | | | | |✓| |CH_P_EVE_62|"Wave"アシンメトリーモノキニ|
-|Wave Diver Bikini|V2|V02_F1|✓|✓|✓|✓|✓| |easy to check|CH_P_EVE_63|"Wave"ダイバービキニ|
-|Santa Dress|(Unsupported)|CH_P_EVE_Chrismas_01_Skin| | | | | |✓| |CH_P_EVE_Chrismas_01|サンタドレス|
-|Photogenic|(Unsupported)|CH_P_EVE_DX_Body| | | | | |✓| |CH_P_EVE_DX|フォトジェニック|
-|Telegenic|(Unsupported)|CH_P_EVE_DX_Body| | | | | |✓| |CH_P_EVE_DX_TypeB|テレジェニック|
-|(Fusion Skin)|(Unsupported)|CH_P_EVE_Fusion_Skin| | | | | | | |CH_P_EVE_Fusion|(フュージョン)|
-|Iberis Costume (Not implemented ?)|V2|V02_F2|✓|✓|✓|✓|✓| | |CH_P_EVE_IberisCos|イベリスコス(未実装？)|
-|Skin Suit|(Unsupported)|EVE_Costume_Temp_Inner_Suit| | | | | | | |CH_P_EVE_InnerSuit|スキンスーツ|
-|Skin Suit (Not implemented ?)|(Unsupported)|EVE_Costume_Temp_Inner_Suit| | | | | | | |CH_P_EVE_InnerSuit1|スキンスーツ(未実装？)|
-|Crimson Wings|V3|V03_TypeA|✓|✓|✓|✓|✓| | |CH_P_EVE_OneMillion_01|クリムゾンウィング|
-|Royal Guard Suit|(Unsupported)|CH_P_EVE_RoyalGuard_01_Skin| | | | | | |The composition of this skin texture is so difficult.|CH_P_EVE_RoyalGuard_01|ロイヤルガードスーツ|
-|YoRHa No.2 Type B Uniform|V3|V03_TypeA|✓|✓|✓|✓|✓| | |DLC_1/CH_P_Nier_01|ヨルハ二号B型制服|
-|YoRHa Uniform 1|V3|V03_TypeA|✓|✓|✓|✓|✓| | |DLC_1/CH_P_Nier_02|ヨルハ制式装束・壱|
-|YoRHa Unoffical Ceremonial Attire|(Unsupported)|CH_P_EVE_Nier_03_Body_A| | | | | |✓| |DLC_1/CH_P_Nier_03|ヨルハ非公式儀礼服|
-|YoRHa Type A No.2 Uniform|(Unsupported)|(Unknown)| | | | | |✓| |DLC_1/CH_P_Nier_04|ヨルハA型二号制服|
-|Wandering Swordfighter Outfit|V3|V03_TypeA|✓|✓|✓|✓|✓| | |DLC_2/CH_P_Nikke_01|流浪剣士の衣|
-|Elegant Dress|V3|V03_TypeA|✓|✓|✓|✓|✓| | |DLC_2/CH_P_Nikke_02|エレガントドレス|
-|Elysion Combat Uniform|(Unsupported)|(Unknown)| | | | | | |Cannot get information from Fmodel.|DLC_2/CH_P_Nikke_03|エリシオン製戦闘服|
-|Never Look Back|(Unsupported)|EVE_BaseBody_V02_F1_Anis| | | | | |✓| |DLC_2/CH_P_Nikke_04|ネバールックバック|
-|Missing Link|(Unsupported)|MI_CH_P_EVE_Nikke_05_Skin_02| | | | | |✓| |DLC_2/CH_P_Nikke_05|ミッシングリンク|
-|Cooling Suit|(Unsupported)|(None)| | | | | | | |DLC_2/CH_P_Nikke_06|クーリングスーツ|
+|Name|reference body type|base skin texture (detail)|adam (hip)|devil girl (upper arm)|moth (breast)|rose (hand)|wings (back)|womb (abdomen)|under construction|note|ID|Name (Japanese)|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---|:---|
+|Daily Biker|(Unsupported)|(Unknown)| | | | | | |✓| |CH_P_EVE_02_Body|デイリーバイカー|
+|FourSeconds Biker|(Unsupported)|(Unknown)| | | | | | |✓| |CH_P_EVE_02_typeB|"FourSeconds"バイカー|
+|Daily Denim|(Unsupported)|(Unknown)| | | | | | |✓| |CH_P_EVE_04_Body|デイリーデニム|
+|FourSeconds Denim|(Unsupported)|(Unknown)| | | | | | |✓| |CH_P_EVE_04_typeB|"FourSeconds"デニム|
+|Daily Sailor (Old Version?)|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_05_Body|デイリーセーラー(旧バージョン？)|
+|Daily Sailor|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_05HN|デイリーセーラー|
+|Comfort Sailor (Old Version?)|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_05_typeB|コンフォートセーラー(旧バージョン？)|
+|Comfort Sailor|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_05_typeBHN|コンフォートセーラー|
+|Black Wave (Old Version?)|V1|MI_CH_P_EVE_BB_V01| | |✓| | | |✓| |CH_P_EVE_06_Body|ブラックウェーブ(旧バージョン？)|
+|Black Wave|V1|MI_CH_P_EVE_BB_V01| | |✓| | | |✓| |CH_P_EVE_06HN|ブラックウェーブ|
+|Wild Wave (Old Version?)|V1|MI_CH_P_EVE_BB_V01| | |✓| | | |✓| |CH_P_EVE_06_typeB|ワイルドウェーブ(旧バージョン？)|
+|Wild Wave|V1|MI_CH_P_EVE_BB_V01| | |✓| | | |✓| |CH_P_EVE_06_typeBHN|ワイルドウェーブ|
+|Punk Top|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_07|パンクトップス|
+|Punk Style|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_07_TypeB|パンクスタイル|
+|Planet Diving Suit (6th) V2|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_08|プラネットダイブスーツ（第6）V2|
+|Planet Diving Suit (6th)|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_08_TypeB_OrangeRed|プラネットダイブスーツ（第6）|
+|Planet Diving Suit (6th) V3|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_08_TypeC|プラネットダイブスーツ（第6）V3|
+|Planet Diving Suit (7th)|EVE_09|CH_P_EVE_09_Skin|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_09|プラネットダイブスーツ（第7）|
+|Planet Diving Suit (7th) V2|EVE_09|CH_P_EVE_09_Skin|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_09_TypeB|プラネットダイブスーツ（第7）V2|
+|Planet Diving Suit (7th) V3|EVE_09|CH_P_EVE_09_Skin|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_09_TypeC|プラネットダイブスーツ（第7）V3|
+|Planet Diving Protection Suit (7th)|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_09_V2|プラネットダイブ防護スーツ（第7）|
+|Planet Diving Protection Suit (7th) V2|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_09_V2_TypeB|プラネットダイブ防護スーツ（第7）V2|
+|Planet Diving Suit (Captain)|(Unsupported)|(None)| | | | | | | | |CH_P_EVE_10|プラネットダイブスーツ（隊長）|
+|Raven Suit|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_11|レイブンスーツ|
+|Raven Suit ?|(Unsupported)|Raven_BaseBody| | | | | | |✓| |CH_P_EVE_11_1|レイブンスーツ(with Hair)|
+|Planet Diving Suit (3rd)|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_14|プラネットダイブスーツ（第3）|
+|Prototype Planet Diving Suit|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_14_1|試作型プラネットダイブスーツ|
+|Planet Diving Suit (3rd) V2|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_14_TypeB|プラネットダイブスーツ（第3）V2|
+|Prototype Planet Diving Suit V2|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_14_1_TypeB|試作型プラネットダイブスーツV2|
+|Orca Engineer (Old Version?)|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_15|オルカエンジニア(旧バージョン？)|
+|Orca Engineer|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_15_V02|オルカエンジニア|
+|Orca Techie|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_15_V02_TypeB|オルカテック|
+|Black Kunoichi|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_16|ブラッククノイチ|
+|White Kunoichi|V1|BaseBody|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_16_TypeB|ホワイトクノイチ|
+|Sporty Yellow (Old Version?)|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_17|スポーティーイエロー(旧バージョン？)|
+|Sporty Yellow|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_17NH|スポーティーイエロー|
+|Sporty Energy|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_17NH_TypeB|スポーティーエネルギー|
+|Daily Mascot|V2|V02_F1/V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_18|デイリーマスコット|
+|Comfort Mascot|V2|V02_F1/V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_18_TypeB|コンフォートマスコット|
+|Cybernetic Bondage|(Unsupported)|EVE_Cos_19_Skin| | | | | | |✓| |CH_P_EVE_19|サイバネティックボンデージ|
+|Autonetic Bondage|(Unsupported)|EVE_Cos_19_TypeB_BB| | | | | | |✓| |CH_P_EVE_19_TypeB|オートネイティックボンデージ|
+|Black Rose|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_20|ブラックローズ|
+|La Vie en Rose|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_20_TypeB|ラ・ヴィ・アン・ローズ|
+|Angelic Rose|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_20_TypeC|エンジェルローズ|
+|Sky Ace|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_21|スカイエース|
+|Air Ace|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_21_TypeB|エアエース|
+|White Full Dress|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_22|フルドレスホワイト|
+|Black Full Dress|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_23|フルドレスブラック|
+|Wasteland Adventurer|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_24|荒野の冒険家|
+|Wasteland Explorer|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_24_TypeB|荒野の探検家|
+|Motivation|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_25|モチベーション|
+|Resonance|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_25_TypeB|レゾナンス|
+|Red Passion|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_26|レッドパッション|
+|Emerald Passion|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_26_TypeB|エメラルドパッション|
+|Ocean Maid|CH_P_EVE_27|CH_P_EVE_27_BB_02|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_27|オーシャンメイド|
+|Tidal Maid|CH_P_EVE_27|CH_P_EVE_27_BB_02|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_27_TypeB|タイダルメイド|
+|Holiday Rabbit (Old Version?)|(Unsupported)|CH_P_EVE_28_BB| | | | | | |✓| |CH_P_EVE_28|ホリディラビット(旧バージョン？)|
+|Holiday Rabbit|(Unsupported)|CH_P_EVE_28_BB| | | | | | |✓| |CH_P_EVE_28HN|ホリディラビット|
+|Holiday Bunny (Old Version?)|(Unsupported)|CH_P_EVE_28_BB| | | | | | |✓| |CH_P_EVE_28_typeB|ホリディバニー(旧バージョン？)|
+|Holiday Bunny|(Unsupported)|CH_P_EVE_28_BB| | | | | | |✓| |CH_P_EVE_28HN_typeB|ホリディバニー|
+|Keyhole Suit|(Unsupported)|CH_P_EVE_29_BB| | | | | | |✓| |CH_P_EVE_29|キーホールスーツ|
+|Stargazor Suit|(Unsupported)|CH_P_EVE_29_BB_TypeB| | | | | | |✓| |CH_P_EVE_29_TypeB|スターゲイザースーツ|
+|Keyhole Dress|(Unsupported)|CH_P_EVE_29_BB_TypeC| | | | | | |✓| |CH_P_EVE_29_TypeC|キーホールドレス|
+|Planet Diving Suit (2nd)|(Unsupported)|(None)| | | | | | | | |CH_P_EVE_30|プラネットダイブスーツ（第2）|
+|Planet Diving Suit (2nd) V2|(Unsupported)|(None)| | | | | | | | |CH_P_EVE_30_TypeB|プラネットダイブスーツ（第2）V2|
+|Cybernetic Dress|(Unsupported)|CH_P_EVE_31_BB| | | | | | |✓| |CH_P_EVE_31|サイバネティックドレス|
+|Cybernetic Suit|(Unsupported)|CH_P_EVE_31_BB| | | | | | |✓| |CH_P_EVE_31_TypeB|サイバネティックスーツ|
+|Daily Knitted Dress|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_32|デイリーニットドレス|
+|Comfort Knitted Dress|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_32_TypeB|コンフォートニットドレス|
+|Peony|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_33|シャクヤク|
+|Hydrangea|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_33_TypeB|アジサイ|
+|Moutan Peony|(Unsupported)|CH_P_EVE_34_BB| | | | | | |✓| |CH_P_EVE_34|ボタン|
+|Black Lotus|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_34_body_02|ブラックロータス|
+|Black Pearl|EVE_35|CH_P_EVE_35_BB|✓|✓|✓|✓|✓| | | |CH_P_EVE_35|ブラックパール|
+|Red Pearl|EVE_35|CH_P_EVE_35_TypeB_BB|✓|✓|✓|✓|✓| | | |CH_P_EVE_35_TypeB|レッドパール|
+|Junk Mechanic|(Unsupported)|MI_EVE_Cos_36_BB1| | | | | | |✓| |CH_P_EVE_36|ジャンクメカニック|
+|Junk Engineer|(Unsupported)|MI_EVE_Cos_36_BB1| | | | | | |✓| |CH_P_EVE_36_TypeB|ジャンクエンジニア|
+|Office Style|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_37|オフィススタイル|
+|Crew Style|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_37_TypeB|クルースタイル|
+|Daily Force|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_39|デイリーフォース|
+|Comfort Force|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_39_TypeB|コンフォートフォース|
+|Cyber Magician|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_40|サイバーマジシャン|
+|Cyber Trickster|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_40_TypeB|サイバートリックスター|
+|Racer's High (Old Version?)|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_41|レーサーズハイ(旧バージョン？)|
+|Racer's High|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_41HN|レーサーズハイ|
+|Speeder's High (Old Version?)|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_41_typeB|スピーダーズハイ(旧バージョン？)|
+|Speeder's High|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_41HN_typeB|スピーダーズハイ|
+|Orca Exploration Suit|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_42|オルカ・エクスプロレーションスーツ|
+|Orca Pathfinder|V2|V02_F1|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_42_TypeB|オルカ・パスファインダー|
+|Blue Monsoon|EVE_43|CH_P_EVE_43_Body|✓|✓|✓|✓|✓|✓| |removed painted-on textures|CH_P_EVE_43|ブルーモンスーン|
+|White Monsoon|EVE_43|CH_P_EVE_43_TypeB_BB|✓|✓|✓|✓|✓|✓| |removed painted-on textures|CH_P_EVE_43_TypeB|ホワイトモンスーン|
+|Fluffy Bear|(Unsupported)|CH_P_EVE_45_Body| | | | | | | | |CH_P_EVE_45|フラッフィーベア|
+|Pink Bear|(Unsupported)|CH_P_EVE_45_TypeB_Body| | | | | | | | |CH_P_EVE_45_TypeB|ピンクベア|
+|Silver Kunoichi|(Unsupported)|CH_P_EVE_46_M01| | | | | | |✓| |CH_P_EVE_46|シルバー・クノイチ|
+|Shadow Kunoichi|(Unsupported)|CH_P_EVE_46_TypeB_M01| | | | | | |✓| |CH_P_EVE_46_TypeB|シャドー・クノイチ|
+|Cyber Bunny|(Unsupported)|CH_P_EVE_47| | | | | | |✓| |CH_P_EVE_47|サイバーバニー|
+|White Pearl|(Unsupported)|CH_P_EVE_49_BB| | | | | | |✓| |CH_P_EVE_49|ホワイトパール|
+|Aqua Pearl|(Unsupported)|CH_P_EVE_49_TypeB_BB| | | | | | |✓| |CH_P_EVE_49_TypeB|アクアパール|
+|FourSeconds Everyday Wear|(Unsupported)|CH_P_EVE_50_BB| | | | | | |✓| |CH_P_EVE_50|"FourSeconds"エブリディウェア|
+|FourSeconds Essential Wear|(Unsupported)|CH_P_EVE_50_BB| | | | | | |✓| |CH_P_EVE_50_TypeB|"FourSeconds"エッセンシャルウェア|
+|FourSeconds Destroyed Denim|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_51|"FourSeconds"ダメージデニム|
+|FourSeconds Black Denim|(Unsupported)|(Unknown)| | | | | | |✓| |CH_P_EVE_52|"FourSeconds"ブラックデニム|
+|FourSeconds Striped Denim|(Unsupported)|(Unknown)| | | | | | |✓| |CH_P_EVE_52_TypeB|"FourSeconds"ストライプデニム|
+|Ultimate Bunny|(Unsupported)|CH_P_EVE_53_BB| | | | | | |✓| |CH_P_EVE_53|アルティメットバニー|
+|Extreme Bunney|(Unsupported)|CH_P_EVE_53_BB| | | | | | |✓| |CH_P_EVE_53_TypeB|エクストリームバニー|
+|Neurocurcuit Bondage|(Unsupported)|CH_P_EVE_54_Skin| | | | | | |✓| |CH_P_EVE_54|ニューロサーキットボンデージ|
+|Prototype Neurolink Suit|(Unsupported)|CH_P_EVE_55_BB| | | | | | |✓| |CH_P_EVE_55|試作型ニューロリンクスーツ|
+|Prototype Sensate Suit|(Unsupported)|CH_P_EVE_55_BB| | | | | | |✓| |CH_P_EVE_55_TypeB|試作型センセートスーツ|
+|Neurolink Suit|(Unsupported)|CH_P_EVE_56_UV1| | | | | | |✓| |CH_P_EVE_56|ニューロリンクスーツ|
+|Neurolink Skin|(Unsupported)|CH_P_EVE_57_Body| | | | | | |✓| |CH_P_EVE_57|ニューロリンクスキン|
+|Sensate Skin|(Unsupported)|CH_P_EVE_57_Body| | | | | | |✓| |CH_P_EVE_57_TypeB|センセートスキン|
+|War Aegis|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_58|ウォーイージス|
+|War Dress|(Unsupported)|CH_P_EVE_59_Body| | | | | | |✓| |CH_P_EVE_59|ウォードレス|
+|War Suit|(Unsupported)|CH_P_EVE_59_Body| | | | | | |✓| |CH_P_EVE_59_TypeB|ウォースーツ|
+|Midsummer Redhood (Old Version?)|(Unsupported)|CH_P_EVE_60_BB| | | | | | |✓| |CH_P_EVE_60|ミッドサマーレッドフード(旧バージョン？)|
+|Midsummer Redhood|(Unsupported)|CH_P_EVE_60_BB| | | | | | |✓| |CH_P_EVE_60_NH|ミッドサマーレッドフード|
+|Midsummer Alice|EVE_61|CH_P_EVE_61_BB|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_61|ミッドサマーアリス|
+|Wave Oblique Monokini|(Unsupported)|CH_P_EVE_62_BaseBody| | | | | | |✓| |CH_P_EVE_62|"Wave"アシンメトリーモノキニ|
+|Wave Diver Bikini|V2|V02_F1|✓|✓|✓|✓|✓|✓| |easy to check|CH_P_EVE_63|"Wave"ダイバービキニ|
+|Santa Dress|(Unsupported)|CH_P_EVE_Chrismas_01_Skin| | | | | | |✓| |CH_P_EVE_Chrismas_01|サンタドレス|
+|Photogenic|(Unsupported)|CH_P_EVE_DX_Body| | | | | | |✓| |CH_P_EVE_DX|フォトジェニック|
+|Telegenic|(Unsupported)|CH_P_EVE_DX_Body| | | | | | |✓| |CH_P_EVE_DX_TypeB|テレジェニック|
+|(Fusion Skin)|(Unsupported)|CH_P_EVE_Fusion_Skin| | | | | | | | |CH_P_EVE_Fusion|(フュージョン)|
+|Iberis Costume (Not implemented ?)|V2|V02_F2|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_IberisCos|イベリスコス(未実装？)|
+|Skin Suit|(Unsupported)|EVE_Costume_Temp_Inner_Suit| | | | | | | | |CH_P_EVE_InnerSuit|スキンスーツ|
+|Skin Suit (Not implemented ?)|(Unsupported)|EVE_Costume_Temp_Inner_Suit| | | | | | | | |CH_P_EVE_InnerSuit1|スキンスーツ(未実装？)|
+|Crimson Wings|V3|V03_TypeA|✓|✓|✓|✓|✓|✓| | |CH_P_EVE_OneMillion_01|クリムゾンウィング|
+|Royal Guard Suit|(Unsupported)|CH_P_EVE_RoyalGuard_01_Skin| | | | | | | |The composition of this skin texture is so difficult.|CH_P_EVE_RoyalGuard_01|ロイヤルガードスーツ|
+|YoRHa No.2 Type B Uniform|V3|V03_TypeA|✓|✓|✓|✓|✓|✓| | |DLC_1/CH_P_Nier_01|ヨルハ二号B型制服|
+|YoRHa Uniform 1|V3|V03_TypeA|✓|✓|✓|✓|✓|✓| | |DLC_1/CH_P_Nier_02|ヨルハ制式装束・壱|
+|YoRHa Unoffical Ceremonial Attire|(Unsupported)|CH_P_EVE_Nier_03_Body_A| | | | | | |✓| |DLC_1/CH_P_Nier_03|ヨルハ非公式儀礼服|
+|YoRHa Type A No.2 Uniform|(Unsupported)|(Unknown)| | | | | | |✓| |DLC_1/CH_P_Nier_04|ヨルハA型二号制服|
+|Wandering Swordfighter Outfit|V3|V03_TypeA|✓|✓|✓|✓|✓|✓| | |DLC_2/CH_P_Nikke_01|流浪剣士の衣|
+|Elegant Dress|V3|V03_TypeA|✓|✓|✓|✓|✓|✓| | |DLC_2/CH_P_Nikke_02|エレガントドレス|
+|Elysion Combat Uniform|(Unsupported)|(Unknown)| | | | | | | |Cannot get information from Fmodel.|DLC_2/CH_P_Nikke_03|エリシオン製戦闘服|
+|Never Look Back|(Unsupported)|EVE_BaseBody_V02_F1_Anis| | | | | | |✓| |DLC_2/CH_P_Nikke_04|ネバールックバック|
+|Missing Link|(Unsupported)|MI_CH_P_EVE_Nikke_05_Skin_02| | | | | | |✓| |DLC_2/CH_P_Nikke_05|ミッシングリンク|
+|Cooling Suit|(Unsupported)|(None)| | | | | | | | |DLC_2/CH_P_Nikke_06|クーリングスーツ|
 
 ## LISENCE
 
