@@ -11,15 +11,9 @@ Adds black and white tattoos onto the skin portion of EVE.
 
 ## Preview
 
-### adam (hip)
+![](preview/hand.png)
 
-### devil girl (upper arm)
-
-### rose (hand)
-
-### wings (back)
-
-### womb (abdomen)
+[more images...](preview/sample.md)
 
 ## Chunk IDs
 
@@ -65,19 +59,19 @@ MonoTattoo_EVE_09
 rule:
 
 ```
-MonoTattoo_(reference body type)_All_P
+MonoTattoo_(reference body type)_All_(chunk id)_P
 ```
 
 e.g. Crimson Wings :
 
 ```
-MonoTattoo_V3_All_P
+MonoTattoo_V3_All_429_P
 ```
 
 e.g. Planet Diving Suit (7th):
 
 ```
-MonoTattoo_EVE_09_All_P
+MonoTattoo_EVE_09_All_430_P
 ```
 
 
@@ -94,6 +88,8 @@ All tattoo images are self-made or AI-generated, except for the following.
 - ~~The original source documents are PXD files (Pixelmator Pro). I do not guarantee that files in PSD (Photoshop) format will work.~~
 
 ## State
+
+> nude mods often use reference body v2
 
 |Name|reference body type|base skin texture (detail)|adam (hip)|devil girl (upper arm)|moth (breast)|rose (hand)|wings (back)|womb (abdomen)|under construction|note|ID|Name (Japanese)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---|:---|
