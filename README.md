@@ -9,6 +9,8 @@ Adds black and white tattoos onto the skin portion of EVE.
 
 > Data is maintained on github, but mods are distributed through NexusMod.
 
+[NexusMod](https://www.nexusmods.com/stellarblade/mods/1267)
+
 ## Preview
 
 ![](preview/hand.png)
