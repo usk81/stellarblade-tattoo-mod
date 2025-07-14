@@ -1,0 +1,669 @@
+{
+  "export_base_path": "../export/womb",
+  "skin_base_path": "../src/skins",
+  "tattoo_base_path": "../src/tattoos",
+  "skins": [
+    {
+      "directory": "CH_P_EVE_ReferenceBody",
+      "file_name": "CH_P_EVE_BB_V03_TypeA_A.png",
+      "is_active": true,
+      "patterns": [
+        {
+          "export_file_path": "womb_abdomenOnly_a0101/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-01-black.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0102/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-02-gradient-red-black.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0103/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-03-gradient-black-red.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0104/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-04-violet.png",
+              "width": 392.6,
+              "height": 278.2,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0105/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-05-pink.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0106/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-06-red.png",
+              "width": 392.6,
+              "height": 278.2,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0107/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-07-black-outline-pink.png",
+              "width": 392.7,
+              "height": 278.8,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0108/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-08-black-outline-red.png",
+              "width": 392.7,
+              "height": 278.8,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0109/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-09-black-outline-violet.png",
+              "width": 392.7,
+              "height": 278.8,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0201/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-01-black.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0202/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-02-gradient-red-black.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0203/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-03-gradient-black-red.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0204/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-04-violet.png",
+              "width": 397.2,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0205/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-05-pink.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0206/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-06-red.png",
+              "width": 397.2,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0207/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-07-black-outline-pink.png",
+              "width": 397.3,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0208/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-08-black-outline-red.png",
+              "width": 397.3,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0209/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-09-black-outline-violet.png",
+              "width": 397.3,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0301/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-01-black.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0302/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-02-gradient-red-black.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0303/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-03-gradient-black-red.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0304/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-04-violet.png",
+              "width": 398.4,
+              "height": 264.4,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0305/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-05-pink.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0306/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-06-red.png",
+              "width": 398.4,
+              "height": 264.4,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0307/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-07-black-outline-pink.png",
+              "width": 398.4,
+              "height": 264.2,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0308/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-08-black-outline-red.png",
+              "width": 398.4,
+              "height": 264.2,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0309/CH_P_EVE_BB_V03_TypeA_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-09-black-outline-violet.png",
+              "width": 398.4,
+              "height": 264.2,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "directory": "CH_P_EVE_ReferenceBody",
+      "file_name": "CH_P_EVE_BB_V03_TypeB_A.png",
+      "is_active": true,
+      "patterns": [
+        {
+          "export_file_path": "womb_abdomenOnly_a0101/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-01-black.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0102/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-02-gradient-red-black.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0103/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-03-gradient-black-red.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0104/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-04-violet.png",
+              "width": 392.6,
+              "height": 278.2,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0105/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-05-pink.png",
+              "width": 391.4,
+              "height": 277.1,
+              "x": 1844,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0106/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-06-red.png",
+              "width": 392.6,
+              "height": 278.2,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0107/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-07-black-outline-pink.png",
+              "width": 392.7,
+              "height": 278.8,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0108/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-08-black-outline-red.png",
+              "width": 392.7,
+              "height": 278.8,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0109/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb01-09-black-outline-violet.png",
+              "width": 392.7,
+              "height": 278.8,
+              "x": 1843,
+              "y": 1280
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0201/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-01-black.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0202/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-02-gradient-red-black.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0203/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-03-gradient-black-red.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0204/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-04-violet.png",
+              "width": 397.2,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0205/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-05-pink.png",
+              "width": 395.5,
+              "height": 246.5,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0206/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-06-red.png",
+              "width": 397.2,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0207/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-07-black-outline-pink.png",
+              "width": 397.3,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0208/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-08-black-outline-red.png",
+              "width": 397.3,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0209/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb02-09-black-outline-violet.png",
+              "width": 397.3,
+              "height": 247.4,
+              "x": 1841,
+              "y": 1291
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0301/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-01-black.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0302/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-02-gradient-red-black.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0303/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-03-gradient-black-red.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0304/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-04-violet.png",
+              "width": 398.4,
+              "height": 264.4,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0305/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-05-pink.png",
+              "width": 398.4,
+              "height": 263.8,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0306/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-06-red.png",
+              "width": 398.4,
+              "height": 264.4,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0307/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-07-black-outline-pink.png",
+              "width": 398.4,
+              "height": 264.2,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0308/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-08-black-outline-red.png",
+              "width": 398.4,
+              "height": 264.2,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        },
+        {
+          "export_file_path": "womb_abdomenOnly_a0309/CH_P_EVE_BB_V03_TypeB_A.png",
+          "tattoos": [
+            {
+              "fileName": "womb03-09-black-outline-violet.png",
+              "width": 398.4,
+              "height": 264.2,
+              "x": 1840,
+              "y": 1297
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
