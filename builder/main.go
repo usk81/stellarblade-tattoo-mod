@@ -86,7 +86,7 @@ func processConfig(config *Config) error {
 		}
 
 		for _, pattern := range skin.Patterns {
-			if err := processPattern(config, skin, pattern, skinImg); err != nil {
+			if err := processPattern(config, pattern, skinImg); err != nil {
 				return fmt.Errorf("failed to process pattern: %v", err)
 			}
 		}
@@ -95,7 +95,7 @@ func processConfig(config *Config) error {
 	return nil
 }
 
-func processPattern(config *Config, skin Skin, pattern Pattern, skinImg image.Image) error {
+func processPattern(config *Config, pattern Pattern, skinImg image.Image) error {
 	// スキン画像をベースとして新しい画像を作成
 	bounds := skinImg.Bounds()
 	compositeImg := image.NewRGBA(bounds)
@@ -118,7 +118,7 @@ func processPattern(config *Config, skin Skin, pattern Pattern, skinImg image.Im
 	}
 
 	// 出力ディレクトリを作成
-	outputPath := filepath.Join(config.ExportBasePath, skin.Directory, pattern.ExportFilePath)
+	outputPath := filepath.Join(config.ExportBasePath, pattern.ExportFilePath)
 	outputDir := filepath.Dir(outputPath)
 	if err := os.MkdirAll(outputDir, 0755); err != nil {
 		return fmt.Errorf("failed to create output directory %s: %v", outputDir, err)
